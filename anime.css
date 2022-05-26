@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0
+}
+
+body{
+    background:rgb(112, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+h1{
+    color:white;
+    margin:20px;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: row;
+    width:30em;
+    height:30em;
+    border:2px solid black;
+    margin-left: 5px;
+    margin-top: 4px;
+    background: rgb(26, 10, 10);
+    position:relative;
+}
+.whole-body{position: relative;
+    border-top-left-radius:40%;
+    border-top-right-radius:40%;
+    background: rgb(34, 30, 10);
+    height:25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:40px;
+    left:50%;
+}
+.rains{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.circle1{
+    border:5px solid black;
+  
+width:3.4em;
+height:5em;
+border-radius: 50%;
+
+background: rgb(190, 167, 36);
+}
+
+.pocket{
+    width:1.2em;
+    height:1.5em;
+    border:5px solid black;
+   border-top-left-radius:50%;
+   border-top-right-radius:50%;
+   position:absolute;
+   right:0;
+   margin-right: 10px;
+   margin-top: 15px;
+}
+    .bodddy{
+        display: flex;
+        flex-direction: row;
+        width:12em;
+        height:7em;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bodyy{
+        border:5px solid rgb(26, 13, 13);
+        border-top-left-radius:40%;
+        border-top-right-radius:40% ;
+        width:6em;
+        height:6em;
+        /* margin:3px; */
+        /* margin-left: %; */
+        position:relative;
+        background: rgb(50, 139, 9);
+    }
+    
+    .hand1{
+        width:2em;
+        height:5em;
+        border:5px solid black;
+         left:0;
+         margin-left: 10px;
+        position: absolute;
+        transform: skewX(-40deg);
+        background: rgb(190, 167, 36);
+        border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 20%;
+        border-top-left-radius: 30%;
+    } 
+    
+    .hand2{
+        width:2em;
+        height:6em;
+        border:5px solid black;
+         right:0;
+         position: absolute;
+         transform: skewX(-25deg);
+         margin-right: 60px;
+         margin-top: 17px;
+         background: rgb(190, 167, 36);
+         border-top-right-radius: 30%;
+         border-top-left-radius: 30%;
+         border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 20%;
+    } 
+    
+
+.waist{
+    width:6em;
+    height:1.5em;
+    border:5px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.belt{
+    width:2em;
+    height:1.5em;
+    border:5px solid black;
+    background: rgb(121, 8, 8);
+    
+}
+.legs{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      width:6em;
+     
+}
+
+.leg1{
+    width:2em;
+    height:7em;
+    border:5px solid black;
+    position:absolute;
+    left:0;
+    margin-left: 5px;
+    background: rgb(41, 57, 209);
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 20%;
+}
+
+.leg2{
+    width:2em;
+    height:7em;
+    border:5px solid black;
+    position:absolute;
+    right:0;
+    margin-right: 5px;
+    background: rgb(41, 57, 209);
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 20%;
+}
+
+
+
+.rain{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:0;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 2s ease-in infinite ;
+}
+.rain1{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:50px;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 5s ease-in infinite ;
+}
+.rain2{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:100px;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 3s ease-in infinite ;
+}
+.rain3{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left: 130px;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 4s ease-in infinite ;
+
+}
+
+.rain4{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:170px;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 1s ease-in infinite ;
+}
+.whole-body{
+    position:relative;
+
+}
+
+
+
+.rain6{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:170px;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 1s ease-in infinite ;
+}
+
+.rain7{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:0;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 1s ease-in infinite ;
+}
+
+.rain8{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:50px;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 2s ease-in infinite ;
+}
+.rain88{
+    border:3px solid rgb(5, 29, 105); 
+    width:1px;
+    height:2em;
+    margin:3px;
+    top:0;
+    left:100px;
+    margin-right: 20px;
+  position: absolute;
+  animation:anime 0.5s ease-in infinite ;
+}
+
+@keyframes anime {
+    0%{
+        top:0;
+
+    }
+    100%{
+       top:90%
+    }
+}
+
+
+
+
+/* .circle2{
+    border-top:5px solid blueviolet;
+    width:6em;
+height:6em;
+border-radius: 50%;
+margin:3px;
+    }
+    .circle3{
+        border-top:5px solid blueviolet;
+        width:6em;
+height:6em;
+border-radius: 50%;
+margin:3px;
+transition: ease-in-out 1s linear ;
+/* transform:rotate(500px) */
+        /* }  */
+
+        /* .circle3:hover{
+            transform:
+        } */
+
+/* @keyframes anime {
+    0%{
+        transform:translateX(-50px);
+    }
+
+    100%{
+        transform:translateX(50px);
+    }
+} */
