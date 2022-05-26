@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+    <title>Navbar project</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div class="all">
+    <nav>
+        <div class="lists">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">OUR PRODUCTS</a></li>
+                <li><a href="#">MORE</a></li>
+            </ul>
+        </div>
+        <button class="but">|||</button>
+    </nav>
+   <div class="details">
+    <ul>
+        <li class="det"><a href="#" >HOME</a></li>
+        <li class="det"><a href="#" >ABOUT US</a></li>
+        <li class="det"><a href="#" >OUR PRODUCTS</a></li>
+        <li class="det"><a href="#" >MORE</a></li>
+    </ul>
+   </div>
+</div>
+<script>
+    var but=document.querySelector(".but");
+  but.addEventListener('click', function(){
+      var details=document.querySelector(".details");
+      if( details.style.display==="block"){
+        details.style.display="none"
+      }else{
+        details.style.display="block"
+      }
+    })
+      </script>
+      </body>
